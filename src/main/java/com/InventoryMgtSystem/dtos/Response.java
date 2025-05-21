@@ -13,6 +13,8 @@ import java.util.List;
 @JsonInclude(JsonInclude.Include.NON_NULL)
 public class Response {
 
+    //this class is used to standardize API Response to clients.
+
     //Generic
     private int status;
     private String message;

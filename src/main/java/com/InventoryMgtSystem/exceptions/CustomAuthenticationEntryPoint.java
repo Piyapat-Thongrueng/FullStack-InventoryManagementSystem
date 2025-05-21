@@ -13,6 +13,9 @@ import org.springframework.stereotype.Component;
 
 import java.io.IOException;
 
+
+// Handle unauthorized access (HTTP 401) when a user tries to access a secured resource without proper authentication.
+
 @Component
 @RequiredArgsConstructor
 public class CustomAuthenticationEntryPoint implements AuthenticationEntryPoint {
