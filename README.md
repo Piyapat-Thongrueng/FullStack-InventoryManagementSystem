@@ -51,3 +51,8 @@ A comprehensive, full-featured RESTful API designed to serve as the backend for 
 -   **Code Efficiency**:  **Project Lombok**  to reduce boilerplate code (e.g., getters, setters, constructors, Slf4j).
 -   **Validation**:  **Jakarta Bean Validation**  for server-side validation of request data.
 -   **Dynamic Filtering with Specifications**: Use Spring Boot Specifications to build flexible, customizable filters, allowing users to search and sort items efficiently.
+
+## How to install the project
+
+    git clone https://github.com/Piyapat-Thongrueng/InventoryMS-Backend.git
+
