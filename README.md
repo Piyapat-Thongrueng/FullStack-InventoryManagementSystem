@@ -55,4 +55,12 @@ A comprehensive, full-featured RESTful API designed to serve as the backend for 
 ## How to install the project
 
     git clone https://github.com/Piyapat-Thongrueng/InventoryMS-Backend.git
+    
+## Database Setup
+ - Open your Relational Database, such as MySQL Workbench or DBeaver.
+ - Create a new database schema for this project.   
+```
+CREATE DATABASE inventory_db;
+```
 
+## Spring Boot project setup
