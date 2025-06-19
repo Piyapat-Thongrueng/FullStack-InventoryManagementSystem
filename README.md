@@ -64,3 +64,19 @@ CREATE DATABASE inventory_db;
 ```
 
 ## Spring Boot project setup
+
+    server.port=9090
+    
+    # MYSQL CONNECTION
+    spring.datasource.url=jdbc:mysql://localhost:3306/hotel_booking_db
+    spring.datasource.username= your-mysql-username
+    spring.datasource.password= your-mysql-password
+    spring.datasource.driver-class-name=com.mysql.cj.jdbc.Driver
+    spring.jpa.hibernate.ddl-auto=update
+    secreteJwtString = your-very-long-and-secret-jwt-string-that-no-one-knows
+
+## Build and Run the project
+Open Terminal in IDE and run the command Maven in order to download all relevant dependencies and run the project.
+
+    mvn clean install
+    mvn spring-boot:run
